@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="CRUD_Opeation" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="CRUD_OpeationContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="CRUD_Opeation.Products" />
+    <EntitySet Name="Users" EntityType="CRUD_Opeation.User" />
+    <EntitySet Name="UserRoles" EntityType="CRUD_Opeation.UserRoles" />
+    <AssociationSet Name="UserUserRoles" Association="CRUD_Opeation.UserUserRoles">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pro_Name" Type="String" Nullable="false" />
+    <Property Name="Pro_Price" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Name" Type="String" Nullable="false" />
+    <Property Name="EmailAddress" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <NavigationProperty Name="UserRoles" Relationship="CRUD_Opeation.UserUserRoles" FromRole="User" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserRole" Type="String" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="CRUD_Opeation.UserUserRoles" FromRole="UserRoles" ToRole="User" />
+    <Property Name="UserId1" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="UserUserRoles">
+    <End Type="CRUD_Opeation.User" Role="User" Multiplicity="1" />
+    <End Type="CRUD_Opeation.UserRoles" Role="UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="UserId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
