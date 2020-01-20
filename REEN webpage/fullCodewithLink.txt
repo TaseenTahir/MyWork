@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PSD to Html WebSite </title>
+    
+     <!--Owl Slider -->
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <script src="js/jquery.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    
+    <!--Font Awsome-->
+     <link rel="stylesheet" href="css/fontAwsome.css">
+
+     <!--Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <!--My External JS-->
+    <script src="js/main.js"></script>
+
+    <!--My External Css-->
+    <link rel="stylesheet" href="css/style.css">
+   
+    
+</head>
+<body>
+    <!---------------------
+        Nav Bar Starting
+      -------------------->
+        
+     <section class="main-header">
+         <div class="mini-header">
+            <div class="container">
+             <div class="row">
+                     <div class="col-sm-6 mini-left">
+                           <span><i class="far fa-envelope"></i>info@reen.com</span> 
+                            <span><i class="fas fa-mobile-alt"></i>+00(123)45 678 90</span>
+                     </div>
+                     <div class="col-sm-6 mini-right ">
+                        <div class="row icons">
+                            <div class="fb"><i class="fab fa-facebook-f"></i></div>
+                            <div class="gp"><i class="fab fa-google-plus-g"></i></div>
+                            <div class="tw"><i class="fab fa-twitter"></i></div>
+                            <div class="pt"><i class="fab fa-pinterest-p"></i></div>
+                            <div class="bh"><i class="fab fa-behance"></i></div>
+                            <div class="dr"><i class="fab fa-dribbble"></i></div>
+                         </div>
+                       </div>  
+                     </div>
+              </div>
+            </div>      
+         </div>
+         <div class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                    <div class="col-sm-10">
+                        <ul class="menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#">features</a></li>
+                            <li><a href="#">mega menu</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+         </div>    
+    </section>
+
+    <!---------------------
+          Slider Start
+      -------------------->
+
+      <section class="slider">
+        <div class="container text-center">
+         <div class="slider-area">
+                <div class="row mx-0 my-0 first-r">
+                        <h1>made for designers</h1>
+                        <p>Create your portfolio in minutes with professionally and lovingly designed REEN website template.
+                           Customize your site with versatile and easy to use features.</p>
+                     </div>
+                     <div class="row mx-0 my-0 second-r">
+                                <a href="#" class="button-slider btn btn-success btn-lg mx-auto">Get started now</a>
+                     </div>   
+           </div>
+        </div>
+      </section>
+
+      <!---------------------
+          Services Start
+      ---------------------->
+
+      <section class="services">
+         <div class="container">
+             <div class="services-area">
+                    <div class="services-head row ml-0 mr-o">
+                            <h2>Beautifull. Clean. Responsive.</h2>
+                            <p> REEN is a high quality solution for those who want a beautifull website in no time.
+                                it's fully responsive and will adapt itself to any mobile device. iPad,iphone,Android,
+                                it doesn't matter.Your content will always looks it's absolute best. 
+                          </p>
+                      </div>
+             </div>
+             <div class="row ml-0 mr-o services-content">
+                    <div class="service-col col-sm-4">
+                       <div class="service-icon col-sm-2"><i class="far fa-heart"></i></div>
+                       <div class="service-text col-sm-10 ">
+                           <h3>Passion</h3>
+                           <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                             Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                       </div>
+                    </div>
+                    <div class="service-col col-sm-4">
+                            <div class="service-icon col-sm-2"><i class="far fa-lightbulb"></i></div>
+                            <div class="service-text col-sm-10 ">
+                                <h3>Creativity</h3>
+                                <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                                  Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                            </div>
+                    </div>
+                    <div class="service-col col-sm-4">
+                            <div class="service-icon col-sm-2"><i class="far fa-star"></i></div>
+                            <div class="service-text col-sm-10 ">
+                                <h3>Quality</h3>
+                                <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor.
+                                  Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                            </div>
+                    </div>
+             </div>
+         </div>
+      </section>
+
+    <!---------------------
+         Portfolio Start
+    ---------------------->
+
+    <section class="portfolio-sec">
+       <div class="container">
+         <div class="portfolio-head-area">
+             <div class="portfolio-head row">
+                  <h2>Check out our latest works</h2>
+                  <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+              </div>
+           </div>
+           <div class="portfolio-content row">
+               <div class="post-col col-sm-6">
+                   <div class="inner-col">
+                        <img src="image/image.png" class="img-fluid">
+                        <div class="overlay">
+                            <span>+</span>
+                        </div>
+                       <h4>Grand Motel gets an identity brushup</h4>
+                       <p>identity</p>
+                   </div>
+               </div>
+               <div class="post-col col-sm-6">
+                   <div class="inner-col">
+                        <img src="image/image2.png" class="img-fluid">
+                        <div class="overlay">
+                            <span>+</span>
+                        </div>
+                       <h4>Fresh branding for a creative startup</h4>
+                       <p>identity</p>
+                   </div>
+               </div>
+               </div>
+           </div>
+           <div class="portfolio-carousel row">
+               <div class="container">
+                    <div class="owl-carousel owl-theme">
+                            <div class="overlay-img">
+                                <img src="image/img1.png">
+                                <div class="overlay-eff">
+                                    <h4 class="p1">Astor & Yancy</h4>
+                                    <p class="p2">Identity</p>
+                                </div>
+                            </div>
+                            <div class="overlay-img" >
+                                <img src="image/img2.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img3.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img4.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img1.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div class="overlay-img">
+                                <img src="image/img2.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img3.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img4.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img1.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img2.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                            <div  class="overlay-img">
+                                <img src="image/img3.png">
+                                <div class="overlay-eff">
+                                        <h4 class="p1">Astor & Yancy</h4>
+                                        <p class="p2">Identity</p>
+                                    </div>
+                            </div>
+                      </div>
+               </div>
+           </div>
+       </div>
+    </section>
+
+    <!---------------------
+         About Start
+    ---------------------->
+
+    <section class="about-sec">
+        <div class="container">
+                <div class="about-area ml-0 mr-o">
+                        <div class="about-head row ml-0 mr-o">
+                                    <h2>Want to work with us?</h2>
+                                    <p> Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.
+                                       Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>            
+                          </div>
+                          <div class="row ml-0 mr-0 about-button">
+                            <a href="#" class="btn btn-primary mx-auto btn-lg">Get in touch</a>
+                          </div>
+                </div>  
+        </div>
+    </section>
+
+    <!---------------------
+         Footer Start
+    ---------------------->
+
+    <footer class="big-footer">
+        <div class="container">
+            <div class="big-footer">
+               <div class="row">
+                    <div class="col-sm-3 frst-r">
+                        <h4>Who we are</h4>
+                        <img src="image/footerlogo.png">
+                        <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor.
+                         Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.
+                        </p>
+                        <h5>More About Us<i class="fa fa-arrow-right" aria-hidden="true"></i></h5>
+                    </div>
+                    <div class="col-sm-3 sec-r">
+                       <h4>Latest works</h4>
+                       <div class="row pics">
+                           <div class="col-sm-6 post">
+                              <img src="image/pic1.png">
+                              <div class="post-o">
+                                  <span>+</span>
+                              </div>
+                            </div>
+                           <div class="left-pic col-sm-6 post"><img src="image/pic3.png">
+                            <div class="post-o">
+                                <span>+</span>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="row left-sec">
+                            <div class="col-sm-6 post">
+                                <img src="image/pic2.png">
+                                <div class="post-o">
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                            <div class="col-sm-6 left-pic post"><img src="image/pic4.png">
+                                <div class="post-o">
+                                        <span>+</span>
+                                    </div>                           
+                                 </div>
+                       </div>
+                    </div>
+                    <div class="col-sm-3 third-r">
+                        <h4>Get in touch</h4>
+                        <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
+                        </p>
+                        <h5><i class="fas fa-map-marker-alt"></i>84 Street, City, State 24813</h5>
+                        <h5><i class="fa fa-mobile-alt" aria-hidden="true"></i>+00 (123) 456 78 90</h5>
+                        <h5><i class="far fa-envelope"></i>info@reen.com</h5>
+                    </div>
+                    <div class="col-sm-3 fourth-r">
+                        <h4>Free updates</h4>
+                        <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                        <div class="row"> 
+                            <div class="SearchBar">
+                                <form>
+                                        <a href="#" class="btn btn-primary">Subscribe</a>
+                                     <input type="text" placeholder="Enter your email address" required class="form-control" >
+                                </form>
+                            </div>
+                      </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-- Sub Footer -->
+        <div class="sub-footer">
+            <div class="container">
+                 <div class="row">
+                     <div class="col-sm-6 left-side">
+                         <h4>© 2014 REEN. All rights reserved.</h4>
+                     </div>
+                     <div class="col-sm-6 right-side">
+                         <ul>
+                             <li><a href="">Home</a></li>
+                             <li><a href="">Portfolio</a></li>
+                             <li><a href="">Blog</a></li>
+                             <li><a href="">About</a></li>
+                             <li><a href="">Services</a></li>
+                             <li><a href="">Contact</a></li>
+                         </ul>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </footer> 
+   
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css?family=Cookie|Raleway:600&display=swap";
+
+body{
+    background-color: #2a3b40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+
+.navBar{
+ background-image: url("bg1.png");
+background-repeat: no-repeat;
+ width:100%;
+ height: 1000px;
+ background-size: cover;
+ text-transform: uppercase;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 35.02px;
+    font-family: 'raleway';
+}
+
+.logo{
+    color: #fff;
+    font-size: 35.02px;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: 'raleway';
+}
+
+.navbar{
+    margin-left: 170px;
+}
+
+.box{
+    width: 758px;
+    max-width: 100%;
+    height: 470px;
+    background-color: #dadcdd;
+    opacity: 0.8;
+    margin-top: 80px;
+
+}
+
+.box h2{
+    font-size: 104.17px;
+    color: #2c3a42;
+    text-align: center;
+    font-family: 'cookie';
+    margin-top: 50px;
+    text-transform: capitalize;
+    display: block;
+    width:100%;
+}
+
+.box h3{
+    font-size: 76.99px;
+    color: #ad6c12;
+    text-align: center;
+    font-family: 'raleway';  
+}
+
+.box .button a{
+   margin-top: 30px;
+   font-size: 38.49px;
+   color: #26363a;
+   font-family: 'raleway';
+  
+}
+
+/* Some Detailed Css */
+
+.detail-area{
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 80px;
+}
+
+.left-side h4{
+    padding-top: 80px;
+    font-size: 29.17px;
+    color: #fff;
+}
+
+.left-side p{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18.75px;
+}
+
+.image-responsive{
+        max-width: 100%;
+        height: auto;
+}
+
+/* New Dishes Css */
+
+.dishes-area{
+    background-color: #d4d8d9;
+    height: 387px;
+    width: 100%;
+}
