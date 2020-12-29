@@ -1,0 +1,192 @@
+
+@import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
+
+/*  Contact Page css */
+
+.nav-link{
+    color: #fff;
+    
+}
+
+
+
+.b1{
+    border: solid #fff 1px;
+}
+
+.m1{
+    background-color: black;
+}
+
+.m2{
+    background-color: black;
+}
+
+.x1{
+    background-color: rgba(0, 0,0, .8);
+}
+
+h1{
+    color: white;
+    font-family: arial;
+}
+
+h3{
+    padding-bottom: 10px;
+}
+
+#z1{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#z2{
+    margin-left: 80px;
+    width: 300px;
+}
+
+#z3{
+    margin-left: 85px;
+    width: 300px;
+}
+
+#z4{
+    margin-left: 55px;
+    width: 300px;
+}
+
+#btn{
+    margin-left: 165px;
+}
+
+#t8{
+    padding-left: 120px;
+}
+
+.t8{
+    padding-left: 30px;
+}
+
+#my{
+    padding-top: 300px;
+}
+
+#a1{
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.q2{
+    margin-left: 80px;
+}
+
+@media(max-width:550px){
+    #a1{
+       padding-left: 10px; 
+    }
+}
+
+.q3{
+    margin-top: 50px;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+
+.f4{
+    background: #262626;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins' , sans-serif; 
+    margin-top: 40px;
+}
+
+
+
+.f3{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.f3 .box{
+   text-align: center;
+}
+
+.fa-phone{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.f3 .box .icon .fas{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.f3 .box .icon h3,
+.f3 .box .icon h4{
+   position: relative;
+   overflow: hidden; 
+   font-weight: 400;
+   margin: 0;
+   padding: 2px 5px;
+   font-size: 20px;
+   transition-delay: 0.333s;
+   color: transparent;
+}
+
+.f3 .box .fas:hover ~ h3,
+.f3 .box .fas:hover ~ h4{
+    color: #fff;
+}
+
+.f3 .box .icon h4{
+    font-weight: 600;
+    margin: 5px 0;
+    font-style: 30px;
+}
+
+.f3 .box .icon h3:before,
+.f3 .box .icon h4:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:100%;
+    width: 100%;
+    height:100%;
+    background: aqua;
+    transition: 1s;
+
+}
+
+.f3 .box .icon h4:before{
+    left: initial;
+    right:100%;
+    background: #9c27b0;
+
+}
+
+.f3 .box .fas:hover ~ h3:before
+
+  {
+      left: -100%;
+
+  }
+
+  .f3 .box .fas:hover ~ h4:before{
+      left: initial;
+      right:-100%;
+  }
+
+  .i5{
+      float:right;
+      margin-top: 15px;
+  }
+
+
+
+

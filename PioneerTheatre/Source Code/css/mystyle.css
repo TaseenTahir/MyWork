@@ -1,0 +1,400 @@
+
+@import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
+
+/* Home page css */
+
+.nav-link{
+	color: #fff;
+}
+	
+
+.space{
+	margin-left: 360px;
+}
+
+.spacing{
+	margin-right:40px;
+	
+}
+
+h1{
+	color: white;
+	margin-left: 240px;
+	font-family: "sans-serif";
+	margin-top: 60px;
+	font-size: 60px;
+	
+}
+
+html, body {
+	position: relative;
+	height: 100%;
+  }
+  body {
+	background: #000;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+  }
+  .swiper-container {
+	width: 100%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .swiper-slide {
+	background-size: cover;
+	background-position: center;
+  }
+  .gallery-top {
+	height: 80%;
+	width: 100%;
+  }
+  .gallery-thumbs {
+	height: 20%;
+	box-sizing: border-box;
+	padding: 10px 0;
+  }
+  .gallery-thumbs .swiper-slide {
+	width: 25%;
+	height: 100%;
+	opacity: 0.4;
+  }
+  .gallery-thumbs .swiper-slide-thumb-active {
+	opacity: 1;
+  }
+
+
+body{
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+.slider{
+	margin-top: 30px;
+}
+
+.img-fluid1{
+	width:100%;
+	height:300px;
+}
+
+.r4{
+	width: 100%;
+	height:150px;
+	margin-top: 20px;
+	margin-left: 250px;
+}
+
+h2{
+	font-size: 28px;
+	font-family: 'lucida sans';
+	margin-top: 20px;
+
+}
+
+.box{
+	width: 1280px;
+	margin: 50px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+ .box .b1{
+	position: relative;
+	width: 300px;
+	height: 800px;
+	background:black;
+	margin: 5px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.box .b1 .imgBox{
+	position: relative;
+	
+}
+
+.box .b1 .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.box .b1:hover .imgBox img{
+	transform: scale(0.7);
+}
+
+.imgBox img{
+	width: 300px;
+	height: 400px;
+	
+}
+
+.box .b1 .details{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0, 0, 0.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+	
+
+}
+
+.content img{
+	width: 100%;
+}
+
+.box .b1:hover .details{
+	transform: scaleY(1.2);
+	
+}
+
+.box .b1 .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+
+}
+.box .b1 .details .content h2{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: black;
+}
+
+.box .b1 .details .content p{
+	margin: 10px 0 0;
+	padding: 0;
+	
+}
+
+.card{
+    position: absolute;
+    top: 0%;
+	left:50%;
+	transform: translate(-50%,20%);
+    width: 300px;
+    height:450px;
+    background: #000;
+}
+
+.card .poster{
+    position: relative;
+    overflow: hidden;
+}
+
+.card .poster img{
+    width: 100%;
+}
+
+.dt h2{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.dt h2 span{
+    font-size: 14px;
+    color:purple;
+}
+
+.rating{
+    position: relative;
+    padding: 5px o;
+
+}
+
+.rating .fas{
+    color:#f7f406 ;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.rating .far{
+    color: #f7f406;
+    font-size: 16px;
+}
+
+.rating span{
+    color: #fff;
+    padding: 0 5px;
+}
+
+.tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.tags span{
+    padding: 2px 5px;
+    margin-right: 2px;
+}
+
+.tags span.adventure{
+    background-color: blue;
+}
+
+.tags span.action{
+    background-color: #f70661;
+}
+
+.l1{
+	width:100%;
+	border: solid 1px;
+	background-color: black;
+	margin-top: 120px;
+	opacity: 0;
+	
+}
+
+.c1{
+	width: 100%;
+	padding-top:40px;
+	padding-bottom: 40px; 
+	border: 1px solid;
+	margin-top: 100px;
+	background-color: white;
+}
+
+
+
+/* .i4{
+	margin-left: 400px;
+} */
+
+.l2{
+	opacity: 1;
+	transition: 0.5s;
+	
+}
+
+.f1{
+	width: 100%;
+	border: solid 0px;
+	background-color: #fff;
+	margin-top: 50px;
+	
+
+}
+
+ /* Footer Css Start */
+
+ .f4{
+	background: #262626;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: 'poppins' , sans-serif; 
+}
+
+.f3{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between; 
+	color: #fff;
+	margin-top: 30px;
+}
+
+.f3 .box{
+	text-align: center;
+ }
+
+ .fa-phone{
+	 font-size: 60px;
+	 cursor: pointer;
+	 margin-left: 100px;
+ }
+
+ .f3 .box .icon .fas{
+	font-size: 60px;
+	cursor: pointer;
+}
+
+.f3 .box .icon h3,
+.f3 .box .icon h4{
+   position: relative;
+   overflow: hidden; 
+   font-weight: 400;
+   margin: 0;
+   padding: 2px 5px;
+   font-size: 20px;
+   transition-delay: 0.333s;
+   color: transparent;
+}
+
+.f3 .box .fas:hover ~ h3,
+.f3 .box .fas:hover ~ h4{
+	color: #fff;
+}
+
+.f3 .box .icon h4{
+	font-weight: 600;
+	margin: 5px 0;
+	font-style: 30px;
+}
+
+.f3 .box .icon h3:before,
+.f3 .box .icon h4:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left:100%;
+	width: 100%;
+	height:100%;
+	background: aqua;
+	transition: 1s;
+
+}
+
+.f3 .box .icon h4:before{
+	left: initial;
+	right:100%;
+	background: #9c27b0;
+
+}
+
+.f3 .box .fas:hover ~ h3:before
+
+  {
+	  left: -100%;
+
+  }
+
+  .f3 .box .fas:hover ~ h4:before{
+	  left: initial;
+	  right:-100%;
+  }
+
+
+
+ 
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
