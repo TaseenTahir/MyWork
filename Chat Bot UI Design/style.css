@@ -1,0 +1,14 @@
+
+
+.nlink{
+    color: #136ade;
+    font-size: 28px;
+}
+
+
+
+.nlink:hover{
+    border-bottom: 4px solid #2bc79d;
+    color: #136ade;
+    transition: 0.3s;
+}
