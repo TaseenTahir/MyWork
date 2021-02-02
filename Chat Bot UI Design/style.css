@@ -1,14 +1,108 @@
-
-
+.logo{
+    height:50px;
+    margin-left: 30px;
+}
 .nlink{
     color: #136ade;
-    font-size: 28px;
+    font-size: 23px;
 }
-
-
 
 .nlink:hover{
     border-bottom: 4px solid #2bc79d;
     color: #136ade;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
+}
+
+.nlinks{
+    border:solid  #136ade;
+    border-radius: 10px;
+    color: #136ade;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.nlinks:hover{
+    color: #136ade;
+}
+.row{
+    margin-left:30px;
+}
+
+.box-left h3{
+   color: #136ade;
+   margin-top: 120px;
+   font-size:40px;
+}
+
+.box-left button{
+    background-color: #2bc79d;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 27px;
+}
+
+.box-right img{
+    height:500px;
+    margin-left: 50px;
+}
+
+.social-sites{
+    position: absolute;
+}
+
+.social-sites ul{
+    list-style: none;
+}
+
+.social-sites ul li{
+    display: inline-block;
+    margin-right:20px;
+    opacity:0.4;
+}
+
+.social-sites ul li:hover{
+    opacity:1;
+}
+
+@media only screen and (max-width:578px){
+
+    .menu-toggle{
+        display: inline-block;
+        margin-left: 40px;
+       }
+
+       .nav{
+           width:100%;
+       }
+
+       .nlink{
+           margin: 0;
+       }
+
+       .box-left h3{
+          font-size:20px;
+          margin-left:0;
+       }
+
+       .box-left button{
+           font-size:12px;
+           margin-left: 0;
+           padding: 5px 10px;
+       }
+
+       .row{
+           margin-left:0;
+       }
+
+       .box-right img{
+           height:300px;
+           margin-top:40px;
+          
+       }
 }
